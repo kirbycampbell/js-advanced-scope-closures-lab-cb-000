@@ -1,6 +1,6 @@
-function produceDrivingRange(range){
+function produceDrivingRange(blockRange){
   return function(multiplier) {
-    return range * multiplier;
+    return blockRange * multiplier;
     }
 
   }
