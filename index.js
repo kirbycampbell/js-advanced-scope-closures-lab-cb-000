@@ -9,3 +9,9 @@ function produceDrivingRange(blockRange){
       return `within range by ${diff}`;}
     }
   }
+
+function produceTipCalculator(percentage){
+  return function(bill){
+    return bill * percentage;
+  }
+}
