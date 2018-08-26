@@ -1,6 +1,6 @@
 function produceDrivingRange(distance){
-  return function(distance) {
-    distance > 10 ? return true : return false
+  return function() {
+    if distance > 10 ? return true : return false
     }
 
   }
