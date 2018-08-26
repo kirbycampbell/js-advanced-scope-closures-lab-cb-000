@@ -1,9 +1,6 @@
 function produceDrivingRange(){
-  let drId = 0
-  return class {
-    constructor(distance){
-      this.distance = distance
-      this.id = ++drId;
+  return function(distance) {
+    distance > 10 ? return true : return false
     }
 
   }
