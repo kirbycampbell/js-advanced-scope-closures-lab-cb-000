@@ -4,7 +4,7 @@ function produceDrivingRange(blockRange){
     let diff = Math.abs(blockRange - distance);
 
     if (distance > blockRange) {
-      return `${diff}blocks out of range`;
+      return `${diff} blocks out of range`;
     }else {
       `within range by ${diff}`
     }
